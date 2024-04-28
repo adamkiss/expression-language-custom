@@ -2,7 +2,7 @@
 # shellcheck shell=bash
 
 copy () { #: prepare stuff and watch
-    rsync -rtP ~/Code/symfony/src/Symfony/Component/ExpressionLanguage/* .
+    rsync -rtP ~/Code/symfony/src/Symfony/Component/ExpressionLanguage/* . --exclude=README.md
 }
 
 #
