@@ -2,7 +2,7 @@
 # shellcheck shell=bash
 
 copy () { #: prepare stuff and watch
-    rcp ~/Code/symfony/src/Symfony/Component/ExpressionLanguage/* .
+    rsync -rtP ~/Code/symfony/src/Symfony/Component/ExpressionLanguage/* .
 }
 
 #
