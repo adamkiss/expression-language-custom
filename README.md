@@ -1,4 +1,4 @@
-ExpressionLanguage Component
+[PRIVATE READONLY COPY] ExpressionLanguage Component
 ============================
 
 The ExpressionLanguage component provides an engine that can compile and
